@@ -121,7 +121,7 @@ class PutUsuarioTest(APITestCase):
         self.assertEqual(3, ExtraInfo.objects.count())
 
 
-# ----------------------------------------------------------------------------------- prueba unitaria del POST
+# ----------------------------------------------------------------------------------- prueba unitaria del DELETE
 # python manage.py test api.tests.DeleteUsuarioTest
 class DeleteUsuarioTest(APITestCase):
     def setUp(self):
